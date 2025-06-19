@@ -1,251 +1,397 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfolio Luis Armando Moto</title>
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <link rel="icon" href="images/favicon.png" type="image/png" />
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      display: flex;
-      min-height: 100vh;
-    }
-    #sidebar {
-      width: 250px;
-      background: #222;
-      color: #eee;
-      padding: 20px;
-      box-sizing: border-box;
-      position: fixed;
-      height: 100vh;
-      overflow-y: auto;
-    }
-    #sidebar a {
-      color: #eee;
-      text-decoration: none;
-    }
-    #sidebar ul {
-      list-style: none;
-      padding: 0;
-    }
-    #sidebar ul li {
-      margin: 15px 0;
-    }
-    #sidebar #logo a {
-      font-size: 1.8rem;
-      font-weight: bold;
-      color: #fff;
-    }
-    #sidebar section.box {
-      margin-top: 30px;
-      font-size: 0.9rem;
-      line-height: 1.4;
-    }
-    #content {
-      margin-left: 270px;
-      padding: 40px;
-      max-width: 900px;
-      box-sizing: border-box;
-      flex-grow: 1;
-    }
-    section {
-      margin-bottom: 80px;
-    }
-    h2 {
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 8px;
-    }
-  </style>
-</head>
-<body>
+<!DOCTYPE HTML>
 
-  <!-- Sidebar -->
-  <div id="sidebar">
-    <h1 id="logo"><a href="#">Luis Moto</a></h1>
-    <nav id="nav">
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#cv">Curriculum Vitae</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <section class="box search">
-      <form method="get" action="#">
-        <input type="text" class="text" name="search" placeholder="Search" />
-      </form>
-    </section>
-    <section class="box text-style1">
-      <div class="inner">
-        <p>
-          Welcome to my portfolio. Explore my work, background, and projects.
-        </p>
-      </div>
-    </section>
-    <ul id="copyright">
-      <li>&copy; 2025 L.A.M.M.</li>
-    </ul>
-  </div>
+<html>
+	<head>
+		<title>Portfolio Luis Armando Moto</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-  <!-- Main Content -->
-  <div id="content">
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
 
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I'm Luis Armando Macías Moto, a student of <strong>Applied Mathematics</strong> and a graduate in <strong>Linguistics</strong>, with a deep interest in data, language, and logic.</p>
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h1>Luis Moto</h1>
+							<p class="major">Welcome to my portfolio. Explore my work, background, and projects.</p>
+							<ul class="actions stacked">
+								<li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/banner.jpg" alt="" />
+						</div>
+					</section>
 
-      <p>I focus on <strong>Business Intelligence</strong> and <strong>data visualization</strong>, working with tools like <strong>Power BI</strong>, <strong>Python</strong>, and <strong>SQL</strong> to turn raw information into clear, actionable insights.</p>
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>About Me</h2>
+							<p>I'm Luis Armando Macías Moto, a student of <strong>Applied Mathematics</strong> and a graduate in <strong>Linguistics</strong>, with a deep interest in data, language, and logic.</p>
+							<p>I focus on <strong>Business Intelligence</strong> and <strong>data visualization</strong>, working with tools like <strong>Power BI</strong>, <strong>Python</strong>, and <strong>SQL</strong> to turn raw information into clear, actionable insights.</p>
+							<p>My academic background combines analytical precision with communication skills. I’m used to breaking down problems, thinking through systems, and justifying every decision I make.</p>
+							<p>I'm currently building a portfolio of real-world projects, and I’m open to collaboration, new challenges, and learning opportunities.</p>
+							<ul class="actions stacked">
+								<li><a href="#CV" class="button">View my complete Curriculum Vitae</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/spotlight01.jpg" alt="" />
+						</div>
+					</section>
 
-      <p>My academic background combines analytical precision with communication skills. I’m used to breaking down problems, thinking through systems, and justifying every decision I make.</p>
+				<!-- Three -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Aside from academic and professional life</h2>
+							<p>I have a strong interest in <strong>literature</strong>, especially authors like Borges, Cortázar, Pynchon, and Boris Vian.</p>
+      						<p>In <strong>music</strong>, I enjoy playing <strong>bass</strong> and <strong>piano</strong>, writing songs, and performing with my band. I’ve always been interested in express myself with friends.</p>
+      						<p>My main personal passion is <strong>chess</strong>. I train regularly and compete in official FIDE-rated tournaments. Chess has shaped the way I think — I value its focus on structure, logic, and decision-making, and it influences how I approach learning and analysis in general.</p>
+							<ul class="actions stacked">
+								<li><a href="#" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/spotlight02.jpg" alt="" />
+						</div>
+					</section>
 
-      <p>I'm currently building a portfolio of real-world projects, and I’m open to collaboration, new challenges, and learning opportunities.</p>
+				<!-- Four -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="CV">
+						<div class="content">
+							<h2>Education</h2>
+								<ul>
+									<li>
+									<strong>B.Sc. in Applied Mathematics</strong> – <strong>UNAM</strong>, National Autonomous University of Mexico (in progress)
+									<p>My studies focus on <strong>discrete mathematics</strong>, <strong>linear algebra</strong>, and <strong>probability theory</strong>. These areas provide the essential theoretical and practical tools for analyzing complex data structures, modeling relationships, and understanding uncertainty within datasets.</p>
+									<p>This mathematical foundation strengthens my skills in <strong>algorithm development</strong>, <strong>data interpretation</strong>, and <strong>problem-solving</strong>, which are key in business intelligence and data analysis. By combining these mathematical disciplines with my background in linguistics, I am equipped to approach data-driven challenges with a unique perspective that blends formal reasoning with real-world applications.</p>
+									</li>
+									<li>
+									<strong>B.A. in Linguistics</strong> – <strong>UAM</strong>, Metropolitan Autonomous University (2019–2024)
+									<p>I hold a Bachelor's degree in Linguistics from the Metropolitan Autonomous University (UAM), where I developed a deep interest in <strong>neurolinguistics</strong> and, later, in <strong>computational linguistics</strong>. My main academic focus has always been <strong>syntax</strong> and <strong>semantics</strong>, which shaped my analytical thinking and my fascination with the intersection between language and systems.</p>
+									<p>This curiosity led me to explore how linguistic structures can be modeled computationally and how natural language can be processed and analyzed through <strong>data-driven methods</strong>. These experiences naturally paved the way toward my current focus on <strong>business intelligence</strong> and <strong>data analysis</strong>, where I apply similar principles of structure, meaning, and pattern recognition to extract insights from complex datasets.</p>
+									</li>
+								</ul>
 
-      <p>Outside of academic and professional life, I have a strong interest in <strong>literature</strong>, especially authors like Borges, Cortázar, Pynchon, and Boris Vian. I’m drawn to writing that challenges structure and explores language and thought.</p>
+							<ul class="actions stacked">
+								<li><a href="#PEXP" class="button">Professional Experience</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/spotlight03.jpg" alt="" />
+						</div>
+					</section>
 
-      <p>In <strong>music</strong>, I enjoy playing <strong>bass</strong> and <strong>piano</strong>, writing songs, and performing with my band. I’ve always been interested in composition and rhythm, both as creative tools and systems of expression.</p>
+				<!-- Five -->
+					<section class="wrapper style1 align-center" id="PEXP">
+						<div class="inner">
+							<h2>Professional Experience</h2>
+							<p>Below you'll find a selection of my most relevant <strong>professional roles</strong>, each involving <strong>data analysis</strong>, <strong>language processing</strong>, or <strong>applied research</strong>.</p>
+							<p>Move the mouse over the images to view my experience.</p>
+						</div>
 
-      <p>My main personal passion is <strong>chess</strong>. I train regularly and compete in official FIDE-rated tournaments. Chess has shaped the way I think — I value its focus on structure, logic, and decision-making, and it influences how I approach learning and analysis in general.</p>
-    </section>
+				<!-- Gallery -->
+				<div class="gallery style2 medium lightbox onscroll-fade-in">
+
+				<!-- Artículo 1 -->
+				<article>
+					<a href="#modal1" class="image modal-link">
+					<img src="images/gallery/thumbs/01.jpg" alt="AI Trainer – Language Models" />
+					</a>
+					<div class="caption">
+					<h3>AI Trainer – Language Models</h3>
+					<strong>Outlier.org</strong>  
+					Mar. 2024 – Present
+					<p>Click image for details.</p>
+					</div>
+				</article>
+
+				<!-- Artículo 2 -->
+				<article>
+					<a href="#modal2" class="image modal-link">
+					<img src="images/gallery/thumbs/02.jpg" alt="Clinical Research Intern" />
+					</a>
+					<div class="caption">
+					<h3>Clinical Research Intern</h3>
+					<strong>Hospital Manuel Gea González</strong>  Jun. 2023 – Jan. 2024
+					<p>Click image for details.</p>
+					</div>
+				</article>
+
+				<!-- Artículo 3 -->
+				<article>
+					<a href="#modal3" class="image modal-link">
+					<img src="images/gallery/thumbs/03.jpg" alt="Data Analyst" />
+					</a>
+					<div class="caption">
+					<h3>Data Analyst</h3>
+					<strong>Zensitud</strong> Online Psychology Platform  
+					<p>Jan. 2021 – Apr. 2022</p>
+					<p>Click image for details.</p>
+					</div>
+				</article>
+
+				<!-- Agrega más artículos si quieres -->
+
+				</div>
+
+				<!-- Modales -->
+				<div id="modal1" class="modal">
+				<div class="modal-content">
+					<span class="modal-close">&times;</span>
+					<p>As an AI Trainer, I worked on two main domains: <strong>linguistics</strong> and <strong>mathematics</strong>. On the linguistic side, I curated and structured <strong>datasets</strong> to improve the semantic consistency, fluency, and contextual understanding of large language models. I designed prompts and evaluated responses for tasks involving <strong>natural language generation</strong>, <strong>paraphrasing</strong>, and <strong>question answering</strong>.</p>
+					<p>In the mathematics area, I supported the development of AI models by reviewing, completing, and evaluating <strong>mathematical explanations</strong>, <strong>exercises</strong>, and <strong>instructional content</strong>. This included not only solving problems but also crafting clear and pedagogically sound step-by-step solutions. I also contributed to the design of content that demonstrated or explained how to prove <strong>mathematical theorems</strong>, ensuring both formal rigor and educational value.</p>
+					<p>This role allowed me to consolidate my academic foundations in both language and mathematics, and to apply them in a highly interdisciplinary environment. It strengthened my ability to break down complex concepts, model them precisely, and bridge the gap between <strong>human communication</strong> and <strong>computational logic</strong>.</p>
+				</div>
+				</div>
+
+				<div id="modal2" class="modal">
+				<div class="modal-content">
+					<span class="modal-close">&times;</span>
+					<p>This internship, which served as my <strong>social service</strong> for the Linguistics degree, involved supporting <strong>clinical research</strong> projects focused on improving patient outcomes. I assisted in <strong>patient recruitment</strong> and ensured strict adherence to <strong>ethical protocols</strong> and <strong>confidentiality</strong> standards.</p>
+					<p>I maintained accurate <strong>clinical records</strong> and participated in the <strong>collection of clinical data</strong>. I documented observations and measurements, ensuring data quality and alignment with study protocols.</p>
+					<p>I also contributed to <strong>preliminary statistical analysis</strong> and created basic <strong>data visualizations</strong> for internal presentations and reports, supporting experimental design decisions.</p>
+					<p>This experience gave me insight into the research process, ethical standards, and data accuracy. It improved my collaboration and <strong>scientific documentation</strong> skills.</p>
+				</div>
+				</div>
+
+				<div id="modal3" class="modal">
+				<div class="modal-content">
+					<span class="modal-close">&times;</span>
+					<p>This was my first professional role in <strong>data analysis</strong> and <strong>visualization</strong>. At Zensitud, I analyzed behavioral data from over <strong>2,000 users</strong> using <strong>Python</strong> and <strong>SQL</strong>, generating reports that guided strategic decisions.</p>
+					<p>I created interactive <strong>Power BI dashboards</strong> to track <strong>session attendance</strong>, <strong>user retention</strong>, and <strong>module completion</strong>. These visualizations enabled real-time performance monitoring and content improvements.</p>
+					<p>The insights led to a <strong>10% revenue increase</strong> and higher user engagement. This role helped me develop the ability to turn data into decisions and understand how <strong>data-driven strategies</strong> shape digital services.</p>
+				</div>
+				</div>
+
+				<!-- Estilos para modales -->
+				<style>
+				.modal {
+					display: none; /* Oculto por defecto */
+					position: fixed;
+					z-index: 9999;
+					padding-top: 60px;
+					left: 0; top: 0; width: 100%; height: 100%;
+					overflow: auto;
+					background-color: rgba(0,0,0,0.7);
+				}
+
+				.modal-content {
+					background-color: #fff;
+					margin: auto;
+					padding: 20px 30px;
+					border-radius: 8px;
+					width: 90%;
+					max-width: 700px;
+					box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+					overflow-y: auto;
+					max-height: 80vh;
+				}
+
+				.modal-close {
+					color: #aaa;
+					float: right;
+					font-size: 28px;
+					font-weight: bold;
+					cursor: pointer;
+				}
+				.modal-close:hover,
+				.modal-close:focus {
+					color: #000;
+					text-decoration: none;
+				}
+				</style>
+
+				<!-- Script para abrir/cerrar modales -->
+				<script>
+				document.querySelectorAll('.modal-link').forEach(link => {
+					link.addEventListener('click', function(e) {
+					e.preventDefault();
+					const modalId = this.getAttribute('href');
+					const modal = document.querySelector(modalId);
+					if (modal) modal.style.display = 'block';
+					});
+				});
+
+				document.querySelectorAll('.modal-close').forEach(btn => {
+					btn.addEventListener('click', function() {
+					this.closest('.modal').style.display = 'none';
+					});
+				});
+
+				// Cerrar modal al dar click fuera del contenido
+				window.addEventListener('click', function(e) {
+					document.querySelectorAll('.modal').forEach(modal => {
+					if (e.target === modal) {
+						modal.style.display = 'none';
+					}
+					});
+				});
+				</script>
+					<!-- Gallery: Additional (Non-Relevant) Experience -->
+					<h2>Additional Experience</h2>
+					<p>This section highlights <strong>additional roles</strong> that, while not directly related to data science or analytics, have helped shape my carreer.</p>
+					<div class="gallery style2 medium lightbox onscroll-fade-in">
+
+					<!-- Artículo 1 -->
+					<article>
+						<a href="#modalA1" class="image modal-link">
+						<img src="images/gallery/thumbs/02.jpg" alt="Freelance Academic Editor" />
+						</a>
+						<div class="caption">
+						<h3>Freelance Academic Editor</h3>
+						<p>Click image for details.</p>
+						</div>
+					</article>
+
+					<!-- Artículo 2 -->
+					<article>
+						<a href="#modalA2" class="image modal-link">
+						<img src="images/gallery/thumbs/01.jpg" alt="Chess Teaching Assistant" />
+						</a>
+						<div class="caption">
+						<h3>Chess Teaching Assistant</h3>
+						<p>Click image for details.</p>
+						</div>
+					</article>
+
+					<!-- Artículo 3 -->
+					<article>
+						<a href="#modalA3" class="image modal-link">
+						<img src="images/gallery/thumbs/03.jpg" alt="Customer Support Agent" />
+						</a>
+						<div class="caption">
+						<h3>Customer Support Agent</h3>
+						<p>Click image for details.</p>
+						</div>
+					</article>
+
+					</div>
+
+					<!-- Modales para Trabajos No Pertinentes -->
+					<div id="modalA1" class="modal">
+					<div class="modal-content">
+						<span class="modal-close">&times;</span>
+						<h3>Freelance Academic Editor</h3>
+						<strong>Independent Work | Feb. 2020 – Aug. 2023</strong>
+						<p>I worked as a <strong>style editor</strong> and <strong>writing assistant</strong> for university students across various disciplines, including <strong>social sciences</strong>, <strong>natural sciences</strong>, and <strong>engineering</strong>. I edited <strong>essays</strong>, <strong>theses</strong>, and <strong>academic reports</strong>, focusing on <strong>clarity</strong>, <strong>structure</strong>, and <strong>argumentation</strong>, helping students meet <strong>academic standards</strong> in both Spanish and English.</p>
+					</div>
+					</div>
+
+					<div id="modalA2" class="modal">
+					<div class="modal-content">
+						<span class="modal-close">&times;</span>
+						<h3>Chess Teaching Assistant</h3>
+						<strong>ENP No. 2, UNAM | Aug. 2020 – Apr. 2021</strong>
+						<p>I assisted the <strong>women’s chess team</strong> by supporting <strong>practice sessions</strong>, preparing <strong>training material</strong>, and helping organize <strong>internal tournaments</strong>. I provided <strong>individual guidance</strong> and contributed to the team's development in <strong>strategy</strong> and <strong>fundamentals</strong>.</p>
+					</div>
+					</div>
+
+					<div id="modalA3" class="modal">
+					<div class="modal-content">
+						<span class="modal-close">&times;</span>
+						<h3>Customer Support Agent</h3>
+						<strong>Telvista | Aug. 2016 – Jun. 2017</strong>
+						<p>I worked in the <strong>Telmex social collections department</strong>, focused on <strong>courteous and respectful communication</strong>, without applying pressure for payments. Later, I joined <strong>Aeroméxico's customer service team</strong> for the <strong>European region</strong>, handling <strong>inquiries</strong>, <strong>rebookings</strong>, and <strong>client support</strong>, ensuring high-quality attention across <strong>languages</strong> and <strong>time zones</strong>.</p>
+					</div>
+					</div>
 
 
-    <section id="cv">
-      <h2>Curriculum Vitae</h2>
-      <p><strong>For a condensed and summarized CV, download </strong> <a href="assets/MacíasMotoLuisCV.pdf" download>here</a>.</p>
 
-      <h3>Education</h3>
-      <ul>
-        <li>
-          <strong>B.Sc. in Applied Mathematics</strong> – <strong>UNAM</strong>, National Autonomous University of Mexico (in progress)
-          <p>My studies focus on <strong>discrete mathematics</strong>, <strong>linear algebra</strong>, and <strong>probability theory</strong>. These areas provide the essential theoretical and practical tools for analyzing complex data structures, modeling relationships, and understanding uncertainty within datasets.</p>
-          <p>This mathematical foundation strengthens my skills in <strong>algorithm development</strong>, <strong>data interpretation</strong>, and <strong>problem-solving</strong>, which are key in business intelligence and data analysis. By combining these mathematical disciplines with my background in linguistics, I am equipped to approach data-driven challenges with a unique perspective that blends formal reasoning with real-world applications.</p>
-        </li>
-        <li>
-          <strong>B.A. in Linguistics</strong> – <strong>UAM</strong>, Metropolitan Autonomous University (2019–2024)
-          <p>I hold a Bachelor's degree in Linguistics from the Metropolitan Autonomous University (UAM), where I developed a deep interest in <strong>neurolinguistics</strong> and, later, in <strong>computational linguistics</strong>. My main academic focus has always been <strong>syntax</strong> and <strong>semantics</strong>, which shaped my analytical thinking and my fascination with the intersection between language and systems.</p>
-          <p>This curiosity led me to explore how linguistic structures can be modeled computationally and how natural language can be processed and analyzed through <strong>data-driven methods</strong>. These experiences naturally paved the way toward my current focus on <strong>business intelligence</strong> and <strong>data analysis</strong>, where I apply similar principles of structure, meaning, and pattern recognition to extract insights from complex datasets.</p>
-        </li>
-      </ul>
+				<!-- Six -->
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>Technical Skills</h2>
+							<p>My technical skills span the full data workflow: extracting and transforming data with <strong>Python</strong> and <strong>pandas</strong>, managing and querying databases using <strong>SQL</strong> (PostgreSQL/MySQL), and building interactive dashboards and reports with <strong>Power BI</strong>. I also automate processes and perform basic analysis with libraries like <strong>NumPy</strong>, <strong>Matplotlib</strong>, and <strong>scikit‑learn</strong>, ensuring reliable, repeatable results.</p>
+							<div class="items style1 medium onscroll-fade-in">
+								<section>
+									<span class="icon solid style2 major fa-sync-alt"></span>
+									<h3>Data Extraction and Transformation (ETL)</h3>
+									<p>I handle data extraction and transformation from various sources, including APIs, CSV files, and databases. I primarily use <strong>Python</strong> with libraries like <strong>pandas</strong> for cleaning, preprocessing, and transforming data. I ensure data quality and consistency to achieve reliable analysis results.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-save"></span>
+									<h3>Data Storage and Management</h3>
+									<p>I work with relational databases such as <strong>PostgreSQL</strong> and <strong>MySQL</strong>, as well as NoSQL databases like <strong>MongoDB</strong>. I design and optimize database schemas and write complex <strong>SQL</strong> queries using joins, subqueries, and aggregate functions to retrieve precise and efficient data.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-chart-bar"></span>
+									<h3>Data Visualization</h3>
+									<p>I specialize in creating interactive dashboards using <strong>Power BI</strong>, building visual reports including charts, pivot tables, and KPIs to facilitate decision-making. I am proficient in creating measures and calculated columns using <strong>DAX</strong> for advanced analysis.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-desktop"></span>
+									<h3>Programming and Automation</h3>
+									<p>I program in <strong>Python</strong> to automate data manipulation and analysis workflows, utilizing libraries such as <strong>numpy</strong> for numerical operations, <strong>matplotlib</strong> and <strong>seaborn</strong> for visualization, and <strong>scikit-learn</strong> for statistical analysis and basic machine learning.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-cog"></span>
+									<h3>Managing Data</h3>
+									<p>Also, I'm experienced in using <strong>SQL</strong> for querying and managing relational databases such as <strong>PostgreSQL</strong> and <strong>MySQL</strong>. I write complex queries involving <strong>joins</strong>, <strong>subqueries</strong>, <strong>window functions</strong>, and <strong>aggregate operations</strong> to retrieve, manipulate, and analyze data efficiently.</p>
+								</section>
+								<section>
+									<span class="icon style2 major fa-paper-plane"></span>
+									<h3>Office & Productivity Tools</h3>
+									<p>Additionally, I leverage <strong>Microsoft Office</strong> tools, especially <strong>Excel</strong> for advanced formulas, pivot tables, and data cleaning; <strong>PowerPoint</strong> for clear, and fast presentations; and <strong>Word</strong> for structured documentation and reporting.</p>
+								</section>
+								
+							</div>
+						</div>
+					</section>
 
-      <h3>Professional Experience</h3>
-      <ul>
-        <li>
-          <strong>AI Trainer – Language Models</strong><br />
-          <strong>Outlier.org</strong> (Remote) | Mar. 2024 – Present
-          <p>As an AI Trainer, I worked on two main domains: <strong>linguistics</strong> and <strong>mathematics</strong>. On the linguistic side, I curated and structured <strong>datasets</strong> to improve the semantic consistency, fluency, and contextual understanding of large language models. I designed prompts and evaluated responses for tasks involving <strong>natural language generation</strong>, <strong>paraphrasing</strong>, and <strong>question answering</strong>.</p>
-          <p>In the mathematics area, I supported the development of AI models by reviewing, completing, and evaluating <strong>mathematical explanations</strong>, <strong>exercises</strong>, and <strong>instructional content</strong>. This included not only solving problems but also crafting clear and pedagogically sound step-by-step solutions. I also contributed to the design of content that demonstrated or explained how to prove <strong>mathematical theorems</strong>, ensuring both formal rigor and educational value.</p>
-          <p>This role allowed me to consolidate my academic foundations in both language and mathematics, and to apply them in a highly interdisciplinary environment. It strengthened my ability to break down complex concepts, model them precisely, and bridge the gap between <strong>human communication</strong> and <strong>computational logic</strong>.</p>
-        </li>
-        <li>
-          <strong>Clinical Research Intern</strong><br />
-          <strong>Hospital Manuel Gea González</strong> | Jun. 2023 – Jan. 2024
-          <p>This internship, which served as my <strong>social service</strong> for the Linguistics degree, involved supporting <strong>clinical research</strong> projects focused on improving patient outcomes. I assisted in <strong>patient recruitment</strong> and ensured strict adherence to <strong>ethical protocols</strong> and <strong>confidentiality</strong> standards.</p>
-          <p>I maintained accurate <strong>clinical records</strong> and participated in the <strong>collection of clinical data</strong>. I documented observations and measurements, ensuring data quality and alignment with study protocols.</p>
-          <p>I also contributed to <strong>preliminary statistical analysis</strong> and created basic <strong>data visualizations</strong> for internal presentations and reports, supporting experimental design decisions.</p>
-          <p>This experience gave me insight into the research process, ethical standards, and data accuracy. It improved my collaboration and <strong>scientific documentation</strong> skills.</p>
-        </li>
-        <li>
-          <strong>Data Analyst</strong><br />
-          <strong>Zensitud</strong> – Online Psychology Platform | Jan. 2021 – Apr. 2022
-          <p>This was my first professional role in <strong>data analysis</strong> and <strong>visualization</strong>. At Zensitud, I analyzed behavioral data from over <strong>2,000 users</strong> using <strong>Python</strong> and <strong>SQL</strong>, generating reports that guided strategic decisions.</p>
-          <p>I created interactive <strong>Power BI dashboards</strong> to track <strong>session attendance</strong>, <strong>user retention</strong>, and <strong>module completion</strong>. These visualizations enabled real-time performance monitoring and content improvements.</p>
-          <p>The insights led to a <strong>10% revenue increase</strong> and higher user engagement. This role helped me develop the ability to turn data into decisions and understand how <strong>data-driven strategies</strong> shape digital services.</p>
-        </li>
-      </ul>
-      
-      <h3>Additional Experience</h3>
-      <ul>
-        <li>
-          <strong>Freelance Academic Editor</strong><br />
-          Independent Work | Feb. 2020 – Aug. 2023
-          <p>I worked as a <strong>style editor</strong> and <strong>writing assistant</strong> for university students across various disciplines, including <strong>social sciences</strong>, <strong>natural sciences</strong>, and <strong>engineering</strong>. I edited <strong>essays</strong>, <strong>theses</strong>, and <strong>academic reports</strong>, focusing on <strong>clarity</strong>, <strong>structure</strong>, and <strong>argumentation</strong>, helping students meet <strong>academic standards</strong> in both Spanish and English.</p>
-        </li>
-        <br />
-        <li>
-          <strong>Chess Teaching Assistant</strong><br />
-          ENP No. 2, UNAM | Aug. 2020 – Apr. 2021
-          <p>I assisted the <strong>women’s chess team</strong> by supporting <strong>practice sessions</strong>, preparing <strong>training material</strong>, and helping organize <strong>internal tournaments</strong>. I provided <strong>individual guidance</strong> and contributed to the team's development in <strong>strategy</strong> and <strong>fundamentals</strong>.</p>
-        </li>
-        <br />
-        <li>
-          <strong>Customer Support Agent</strong><br />
-          Telvista | Aug. 2016 – Jun. 2017
-          <p>I worked in the <strong>Telmex social collections department</strong>, focused on <strong>courteous and respectful communication</strong>, without applying pressure for payments. Later, I joined <strong>Aeroméxico's customer service team</strong> for the <strong>European region</strong>, handling <strong>inquiries</strong>, <strong>rebookings</strong>, and <strong>client support</strong>, ensuring high-quality attention across <strong>languages</strong> and <strong>time zones</strong>.</p>
-        </li>
-      </ul>
+				<!-- Seven -->
+					<section class="wrapper style1 align-center">
+						<div class="inner medium">
+							<h2>Get in touch</h2>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" value="" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" value="" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="6"></textarea>
+									</div>
+								</div>
+								<ul class="actions special">
+									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+								</ul>
+							</form>
 
-      <h3>Technical Skills</h3>
+						</div>
+					</section>
 
-      <ul>
-        <li>
-          <strong>Data Extraction and Transformation (ETL)</strong><br />
-          I handle data extraction and transformation from various sources, including APIs, CSV files, and databases. I primarily use <strong>Python</strong> with libraries like <strong>pandas</strong> for cleaning, preprocessing, and transforming data. I ensure data quality and consistency to achieve reliable analysis results.
-        </li>
-        <br />
-        <li>
-          <strong>Data Storage and Management</strong><br />
-          I work with relational databases such as <strong>PostgreSQL</strong> and <strong>MySQL</strong>, as well as NoSQL databases like <strong>MongoDB</strong>. I design and optimize database schemas and write complex <strong>SQL</strong> queries using joins, subqueries, and aggregate functions to retrieve precise and efficient data.
-        </li>
-        <br />
-        <li>
-          <strong>Data Visualization</strong><br />
-          I specialize in creating interactive dashboards using <strong>Power BI</strong>, building visual reports including charts, pivot tables, and KPIs to facilitate decision-making. I am proficient in creating measures and calculated columns using <strong>DAX</strong> for advanced analysis.
-        </li>
-        <br />
-        <li>
-          <strong>Programming and Automation</strong><br />
-          I program in <strong>Python</strong> to automate data manipulation and analysis workflows, utilizing libraries such as <strong>numpy</strong> for numerical operations, <strong>matplotlib</strong> and <strong>seaborn</strong> for visualization, and <strong>scikit-learn</strong> for statistical analysis and basic machine learning. Also, I'm experienced in using <strong>SQL</strong> for querying and managing relational databases such as <strong>PostgreSQL</strong> and <strong>MySQL</strong>. I write complex queries involving <strong>joins</strong>, <strong>subqueries</strong>, <strong>window functions</strong>, and <strong>aggregate operations</strong> to retrieve, manipulate, and analyze data efficiently.
-.
-        </li>
-      </ul>
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
 
-      <h3>Certifications</h3>
-      <ul>
-        <li>
-          <strong>IBM Data Science Professional Certificate</strong><br />
-          This comprehensive certification provides practical skills and knowledge essential for data scientists in their daily roles. The program teaches the use of key tools, languages, and libraries such as <strong>Python</strong> and <strong>SQL</strong> for importing, cleaning, analyzing, and visualizing data. It covers building machine learning models and pipelines, with hands-on projects that allow you to create a professional portfolio. The curriculum includes fundamental data science concepts, methodologies, Python programming, data analysis, databases and SQL, data visualization, machine learning, generative AI, and career preparation including interview guidance.
-        </li>
-        <br />
-        <li>
-          <strong>Advanced Math Diploma</strong> – Colegio Nacional de Matemáticas<br />
-          This diploma covers extensive coursework in high school and early university-level mathematics. Topics include algebra, geometry, trigonometry, calculus, discrete mathematics, and introductory linear algebra and probability. The diploma provides a strong foundation in mathematical reasoning, problem-solving, and analytical thinking, preparing students for advanced studies and applications in fields such as data science, engineering, and applied mathematics.
-        </li>
-        <br />
-        <li>
-          <strong>Writing and Structure Workshop</strong> – UAM Iztapalapa<br />
-          This workshop focuses on improving academic and professional writing skills, emphasizing clarity, coherence, and effective structure. It provides training in organizing ideas logically, developing arguments persuasively, and mastering various writing styles. The course enhances communication skills critical for presenting research, technical reports, and data-driven insights in clear, accessible language.
-        </li>
-      </ul>
+								<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+						</div>
+					</footer>
 
-    </section>
+			</div>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <h3>Course Projects</h3>
-      <p>Here are some projects I developed during my courses.</p>
-      <ul>
-        <li>Project A: Data Analysis with Python</li>
-        <li>Project B: Business Intelligence dashboard in Power BI</li>
-      </ul>
-      <h3>School Projects</h3>
-      <p>Academic projects related to linguistics and mathematics.</p>
-      <ul></ul>
-      <h3>Data Visualization Projects</h3>
-      <p>Visualizations built with Python and Power BI.</p>
-      <ul>
-        <li>Interactive dashboards</li>
-      </ul>
-    </section>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>You can reach me by email at <a href="mailto:armandomoto@ciencias.unam.mx">armandomoto@ciencias.unam.mx</a>.</p>
-      <p>Or follow me on <a href="https://www.linkedin.com/in/armandomoto" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
-    </section>
-
-  </div>
-
-</body>
+	</body>
 </html>
