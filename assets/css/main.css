@@ -345,7 +345,7 @@ input, select, textarea {
 	}
 
 	hr {
-		border-bottom-color: rgb(0, 0, 0);
+		border-bottom-color: rgb(255, 255, 255);
 	}
 
 /* Row */
@@ -2748,7 +2748,7 @@ input, select, textarea {
 		}
 
 	ul.alt li {
-		border-top-color: rgba(0, 0, 0, 0.2);
+		border-top-color: rgb(255, 255, 255);
 	}
 
 /* Actions */
@@ -8716,7 +8716,7 @@ input, textarea {
 input[type="submit"],
 input[type="button"],
 button {
-  background-color: #000;     /* fondo negro */
+  background-color: #ffffff;     /* fondo negro */
   color: #fff !important;     /* texto blanco */
   border: 1px solid #fff;     /* borde blanco */
 }
