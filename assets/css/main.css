@@ -8700,3 +8700,12 @@ input, textarea {
   background-color: #000000;
   color: #fff;
 }
+/* Cambiar líneas divisoras dentro de la sección Technical Skills */
+#Technical\ Skills .items.style1 section {
+  border-bottom: 1px solid #fff !important; /* línea blanca */
+}
+
+/* Opcional: quitar la línea en el último ítem para que no haya doble línea final */
+#Technical\ Skills .items.style1 section:last-child {
+  border-bottom: none !important;
+}
