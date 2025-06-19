@@ -8614,10 +8614,10 @@ p, li, a, strong {
 }
 
 a {
-  color: #66ccff;
+  color: #ffffff;
 }
 a:hover {
-  color: #99ddff;
+  color: #ffffff;
 }
 
 .wrapper,
@@ -8631,20 +8631,20 @@ a:hover {
 input, textarea {
   background-color: #111;
   color: #fff;
-  border: 1px solid #444;
+  border: 1px solid #ffffff;
 }
 
 .button,
 input[type="submit"] {
-  background-color: #222;
+  background-color: #000000;
   color: #fff;
-  border: 1px solid #555;
+  border: 1px solid #000000;
 }
 
 .button:hover,
 input[type="submit"]:hover {
-  background-color: #333;
-  border-color: #666;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 /* === Dark Theme Overrides (custom) === */
 
@@ -8655,37 +8655,44 @@ body {
 
 /* Enlaces y texto */
 a {
-  color: #47D3E5;
+  color: #ffffff;
 }
 a:hover {
-  color: #89ebff;
+  color: #ffffff;
 }
 
 /* Botones normales */
 .button {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.button:hover {
   background-color: #111;
   color: #fff;
-  border: 1px solid #47D3E5;
-}
-.button:hover {
-  background-color: #1a1a1a;
-  color: #89ebff;
+  border-color: #fff;
 }
 
 /* Botones "primary" */
 .button.primary {
-  background-color: #47D3E5;
-  color: #000 !important;
+  background-color: #000;
+  color: #fff !important;
+  border: 1px solid #fff;
 }
+
 .button.primary:hover {
-  background-color: #89ebff;
+  background-color: #111;
+  color: #fff !important;
+  border-color: #fff;
 }
+
 
 /* Inputs y textarea */
 input, textarea {
   background-color: #111;
   color: #fff;
-  border: 1px solid #444;
+  border: 1px solid #ffffff;
 }
 
 /* Fondo de los modales (si usas alguno) */
