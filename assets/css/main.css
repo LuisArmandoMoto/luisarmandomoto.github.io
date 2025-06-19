@@ -316,11 +316,11 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #000000;
+		color: #ffffff;
 	}
 
 	a {
-		color: #000000;
+		color: #ffffff;
 	}
 
 		a:hover {
@@ -328,24 +328,24 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #000000;
+		color: #ffffff;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: #ffffff;
 	}
 
 	blockquote {
-		border-left-color: rgba(0, 0, 0, 0.2);
+		border-left-color: rgb(0, 0, 0);
 	}
 
 	code {
-		background: rgba(0, 0, 0, 0.05);
-		border-color: rgba(0, 0, 0, 0.2);
+		background: rgb(0, 0, 0);
+		border-color: rgb(0, 0, 0);
 	}
 
 	hr {
-		border-bottom-color: rgba(0, 0, 0, 0.2);
+		border-bottom-color: rgb(0, 0, 0);
 	}
 
 /* Row */
