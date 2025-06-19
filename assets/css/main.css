@@ -8601,3 +8601,95 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+/* === Dark Theme Overrides === */
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, li, a, strong {
+  color: #fff;
+}
+
+a {
+  color: #66ccff;
+}
+a:hover {
+  color: #99ddff;
+}
+
+.wrapper,
+.wrapper .inner,
+.caption,
+.modal-content {
+  background-color: transparent;
+  color: inherit;
+}
+
+input, textarea {
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.button,
+input[type="submit"] {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+.button:hover,
+input[type="submit"]:hover {
+  background-color: #333;
+  border-color: #666;
+}
+/* === Dark Theme Overrides (custom) === */
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Enlaces y texto */
+a {
+  color: #47D3E5;
+}
+a:hover {
+  color: #89ebff;
+}
+
+/* Botones normales */
+.button {
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #47D3E5;
+}
+.button:hover {
+  background-color: #1a1a1a;
+  color: #89ebff;
+}
+
+/* Botones "primary" */
+.button.primary {
+  background-color: #47D3E5;
+  color: #000 !important;
+}
+.button.primary:hover {
+  background-color: #89ebff;
+}
+
+/* Inputs y textarea */
+input, textarea {
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+/* Fondo de los modales (si usas alguno) */
+.modal-content {
+  background-color: #111;
+  color: #fff;
+}
