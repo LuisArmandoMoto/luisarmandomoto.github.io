@@ -8709,3 +8709,35 @@ input, textarea {
 #Technical\ Skills .items.style1 section:last-child {
   border-bottom: none !important;
 }
+
+/* ==== Botones oscuros con texto y borde blanco ==== */
+
+.button,
+input[type="submit"],
+input[type="button"],
+button {
+  background-color: #000;     /* fondo negro */
+  color: #fff !important;     /* texto blanco */
+  border: 1px solid #fff;     /* borde blanco */
+}
+
+/* Hover: borde blanco más brillante */
+.button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover {
+  background-color: #111;     /* un poco más claro en hover */
+  color: #fff !important;
+  border-color: #fff;
+  box-shadow: 0 0 4px #fff;
+}
+
+/* Activo: efecto pulsado */
+.button:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+button:active {
+  background-color: #222;
+  color: #fff !important;
+  border-color: #fff;
+}
