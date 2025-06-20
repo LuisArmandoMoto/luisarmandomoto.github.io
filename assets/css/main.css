@@ -8769,10 +8769,3 @@ button:active {
 #Technical\ Skills .items.style1 section:not(:last-child) {
   border-right: 1px solid #ffffff;
 }
-
-/* Asegura que las líneas horizontales también sean blancas si hay división por filas */
-@media (min-width: 736px) {
-  #Technical\ Skills .items.style1 section:nth-child(n+3) {
-    border-top: 1px solid #ffffff;
-  }
-}
