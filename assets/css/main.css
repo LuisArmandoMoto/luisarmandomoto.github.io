@@ -8760,12 +8760,21 @@ button:active {
   color: #fff !important;
   border-color: #fff;
 }
-/* -- Colores blancos para bordes entre habilidades técnicas -- */
-#Technical\ Skills .items.style1 section {
-  border-color: #ffffff !important;
+
+/*  Contenedor general de las habilidades técnicas */
+#technical-skills .items.style1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1px; /* Espacio entre celdas */
+  background-color: #ffffff; /* Esto crea las líneas blancas */
+  padding: 1px; /* Borde blanco exterior */
+  border-radius: 10px;
 }
 
-/* Si están separadas por líneas verticales u horizontales usando box-shadow o border-left/top/etc */
-#Technical\ Skills .items.style1 section:not(:last-child) {
-  border-right: 1px solid #ffffff;
+/* Cada celda */
+#technical-skills .items.style1 section {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 2rem;
 }
+
