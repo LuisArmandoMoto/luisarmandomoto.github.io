@@ -8705,28 +8705,6 @@ input, textarea {
   background-color: #000000;
   color: #fff;
 }
-/* Cambiar líneas divisoras dentro de la sección Technical Skills */
-/* Elimina bordes por defecto en los ítems */
-#Technical\ Skills .items.style1 section {
-  border: none;
-}
-
-/* Líneas verticales entre columnas */
-#Technical\ Skills .items.style1 section:nth-child(3n+1),
-#Technical\ Skills .items.style1 section:nth-child(3n+2) {
-  border-right: 1px solid #ffffff;
-}
-
-/* Líneas horizontales entre filas */
-#Technical\ Skills .items.style1 section:nth-child(n+4) {
-  border-top: 1px solid #ffffff;
-}
-
-
-/* Opcional: quitar la línea en el último ítem para que no haya doble línea final */
-#Technical\ Skills .items.style1 section:last-child {
-  border-bottom: none !important;
-}
 
 /* ==== Botones oscuros con texto y borde blanco ==== */
 
@@ -8761,20 +8739,20 @@ button:active {
   border-color: #fff;
 }
 
-/*  Contenedor general de las habilidades técnicas */
+/* === Cuadrícula técnica con separación blanca limpia === */
 #technical-skills .items.style1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1px; /* Espacio entre celdas */
-  background-color: #ffffff; /* Esto crea las líneas blancas */
-  padding: 1px; /* Borde blanco exterior */
+  gap: 1px;
+  background-color: #ffffff;
+  padding: 1px;
   border-radius: 10px;
 }
 
-/* Cada celda */
 #technical-skills .items.style1 section {
   background-color: #000000;
   color: #ffffff;
   padding: 2rem;
 }
+
 
